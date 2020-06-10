@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+			
+<!-- Mirrored from www.adrianalima.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 May 2020 15:54:00 GMT -->
+<head>
+			<title>Adriana Lima</title>
+			<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+			<meta name="apple-mobile-web-app-capable" content="yes" />
+			<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+			<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+			<script type="text/javascript" src="../fast.fonts.com/jsapi/ea4c9bcc-daaa-4774-b4f7-da3841b248a6.js"></script>
+			<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+			<script type="text/javascript" src="http://www.youtube.com/iframe_api"></script>
+			<script type="text/javascript">
+				var ytState = 0;
+				var ytCurrent;
+				
+				window.onYouTubePlayerAPIReady = function() {
+					$('.iframediv iframe').each(function() {
+						var player = new YT.Player($(this).attr('id'), {
+					         events: {
+						        "onReady": function() {
+						        	$('#bg li > .iframediv').width(jQuery('#bg').width());
+						            $('#bg li > .iframediv').height(jQuery('#bg').height());
+							    },
+					            "onStateChange": function(event) {
+					            	if (event.data == YT.PlayerState.PLAYING) {
+					            		ytState = 1;
+					            		ytCurrent = player;
+					            	}
+					            	else if (event.data == YT.PlayerState.ENDED || event.data == YT.PlayerState.PAUSED) {
+					            		ytState = 0;
+					            		ytCurrent = undefined;
+					            	}
+					            	else {
+					            		ytState = 1;
+					            		ytCurrent = player;
+					            	}
+					            }
+					         }
+						});
+					});
+				}
+			</script>
+			<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+			<script type="text/javascript" src="js/jquery.touchSwipe-1.2.4.js"></script>
+			<script type="text/javascript" src="js/scroller.js"></script>
+			<script type="text/javascript" src="js/jquery.fittext.js"></script>
+			<script type="text/javascript" src="js/scripts.js"></script>
+			<script type="text/javascript" src="js/jquery.thumbslide.js"></script>
+			<script type="text/javascript">jQuery(document).ready(function($) { setTimeout(function() {
+				$(".logoclass").fitText(0.87, {minFontSize: '24px', maxFontSize: '135px'});
+			}, 1000);});</script>
+			</head>
+
+			<body id="slider">
+<ul id="demo-block">
+              <li style="float:right; width: 98%; text-align: right;"><a href="index.html" class="logoclass">RAZOR ROSE</a></li>
+              <li style="float:right"><a href="https://twitter.com/adrianalima" target="_blank"><img src="img/twitter.png" alt="twitter"/></a><a href="http://www.facebook.com/AdrianaLima" target="_blank"><img src="img/facebook.png" alt="facebook"/></a><a href="http://www.youtube.com/user/iamadrianalima" target="_blank"><img src="img/youtube.png" alt="youtube"/></a><a href="http://instagram.com/adrianalima/" target="_blank"><img src="img/instagram.png" alt="Instagram"/></a></li>
+            </ul>
+<div id="bg">
+              <ul>
+    <li ><img src="slides/1.jpg" /></li>    <li>
+                  <div class="iframediv">
+                <iframe id="ytplayer1" src="http://www.youtube.com/embed/G6zec9kn7Ws?wmode=transparent&amp;enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer1&amp;ap=%2526fmt%3D22" frameborder="0"  width="100%" height="100%"></iframe>
+              </div>
+                </li>
+    <li ><img src="slides/2.jpg" /></li><li ><img src="slides/3.jpg" /></li><li ><img src="slides/4.jpg" /></li><li ><img src="slides/5.jpg" /></li><li ><img src="slides/6.jpg" /></li><li ><img src="slides/7.jpg" /></li><li ><img src="slides/8.jpg" /></li><li ><img src="slides/9.jpg" /></li><li ><img src="slides/10.jpg" /></li><li ><img src="slides/11.jpg" /></li><li ><img src="slides/12.jpg" /></li><li ><img src="slides/13.jpg" /></li><li ><img src="slides/14.jpg" /></li><li ><img src="slides/15.jpg" /></li><li ><img src="slides/16.jpg" /></li><li ><img src="slides/17.jpg" /></li><li ><img src="slides/18.jpg" /></li><li ><img src="slides/19.jpg" /></li><li ><img src="slides/20.jpg" /></li>  </ul>
+            </div>
+
+<!--Arrow Navigation--> 
+<a id="prevslide" class="back"><!-- --></a> <a id="nextslide" class="forward"><!-- --></a>
+<div id="thumb-tray"> 
+              <!--<div id="cat-tray">
+    <ul>
+                  <li><a href="#" class="catbutton grey active">All</a></li>
+                  <li><a href="#" class="catbutton grey ">Videos</a></li>
+                  <li><a href="#" class="catbutton grey ">Swimsuit</a></li>
+                  <li><a href="#" class="catbutton grey ">Lingerie</a></li>
+                  <li><a href="#" class="catbutton grey ">Editorial</a></li>
+                  <li><a href="#" class="catbutton grey ">Beauty</a></li>
+                  <li><a href="#" class="catbutton grey ">Ads</a></li>
+                  <li><a href="#" class="catbutton grey ">Candid</a></li>
+                </ul>
+  </div>-->
+              <div id="carousel" class="scrollthumb-carousel-wrapper">
+    <div class="scrollthumb-carousel">
+                  <ul>
+        <li class="Lingerie"><a href="#"><img src="thumbs/1.jpg" width="100" height="56"/></a></li>        <li class="Videos"><a href="#"><img src="../img.youtube.com/vi/G6zec9kn7Ws/0.jpg" width="100" height="56"/><img src="img/PlayIcon.png" width="39" height="39" alt="play"  style="position: relative;
+margin-top: -45px;
+margin-left: 32px;"/></a></li>
+        <li class="Lingerie"><a href="#"><img src="thumbs/2.jpg" width="100" height="56"/></a></li><li class="Lingerie"><a href="#"><img src="thumbs/3.jpg" width="100" height="56"/></a></li><li class="Intimate"><a href="#"><img src="thumbs/4.jpg" width="100" height="56"/></a></li><li class="Lingerie"><a href="#"><img src="thumbs/5.jpg" width="100" height="56"/></a></li><li class="Intimate"><a href="#"><img src="thumbs/6.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/7.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/8.jpg" width="100" height="56"/></a></li><li class="Beauty"><a href="#"><img src="thumbs/9.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/10.jpg" width="100" height="56"/></a></li><li class="Ads"><a href="#"><img src="thumbs/11.jpg" width="100" height="56"/></a></li><li class="Swimsuit"><a href="#"><img src="thumbs/12.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/13.jpg" width="100" height="56"/></a></li><li class="Lingerie"><a href="#"><img src="thumbs/14.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/15.jpg" width="100" height="56"/></a></li><li class="Intimate"><a href="#"><img src="thumbs/16.jpg" width="100" height="56"/></a></li><li class="Beauty"><a href="#"><img src="thumbs/17.jpg" width="100" height="56"/></a></li><li class="Editorial"><a href="#"><img src="thumbs/18.jpg" width="100" height="56"/></a></li><li class="Beauty"><a href="#"><img src="thumbs/19.jpg" width="100" height="56"/></a></li><li class="Intimate"><a href="#"><img src="thumbs/20.jpg" width="100" height="56"/></a></li>      </ul>
+                </div>
+  </div>
+            </div>
+<!--<audio autoplay onended='this.play();' autobuffer>
+  <source src="audio/bgaudio.ogg" type="audio/ogg" />
+  <source src="audio/bgaudio.mp3" type="audio/mpeg" />
+</audio>-->
+
+</body>
+
+<!-- Mirrored from www.adrianalima.com/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 May 2020 15:54:30 GMT -->
+</html>
